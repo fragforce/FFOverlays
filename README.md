@@ -2,7 +2,7 @@
 Graphics, Videos, and OBS configurations for Fragforce's Streams
 
 ## TL;DR
-You can Download the most recent overlay, that includes the basic layout and all the logos and videos [HERE](https://drive.google.com/open?id=1B0INRjwXxINnHouKJN6Rb7-1bQnwF5-p)
+Grab [the main overlay file](FragforceOverlay.overlay) from here, and import it using your OBS to get all the associated overlays!
 
 ## About this github
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
@@ -43,7 +43,7 @@ A fifth minimal layout can be used by simply using no bars, and adding the semi-
 An offline logo png and a stream standby loop video are included in the content, which can each be used on their own as a offline image and as a standby animation.  You will also find a simple rectangle overlay in this repository, this can be used as a border around any widescreen item, including webcams or widgets, to give a neater feel to any inserted pieces.
 
 ## Theme Requirements
-The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  Those are not on the github, but can be found in the google drive folder [HERE](https://drive.google.com/open?id=1B0INRjwXxINnHouKJN6Rb7-1bQnwF5-p).  Make sure you get both the standard logo and the Transparent one if you need them.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
+The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  These files are now small enough to be stored in the repository, and you will find them in the Overlays folder.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
 
 ## A note on the logo
 After speaking to someone who does this for a living, it has been recommended that we follow these rules in relation to the logo:
@@ -52,6 +52,6 @@ After speaking to someone who does this for a living, it has been recommended th
 - Though the logo can crop over other items on the display, per the rules above, the logo itself should never be cropped.
 
 ## TODO List
-- The overlay file currently only includes the visual elements and doesnt include widget selection, layouts, or themes.
-- The suggestion has been made to change the color scheme in the split screen layout, so this should be looked in to.
+[ ] Add themed widgets
+[ ] Rework split screen layout (maybe darken or change colors)
 
