@@ -10,21 +10,33 @@ This is where you can find all the basic images Fragforce participants can use i
 ## Content Summary
 There are four complete gaming layout pages:
 ```
-OverlayBarBottomOnly 	White bar along the bottom of the screen, standard logo in the bottom left corner,
-						designed to have game overlay completely fill the screen and be partially hidden behind the bar
+OverlayBarBottomOnly 	
+	White bar along the bottom of the screen, 
+	standard logo in the bottom left corner,
+	designed to have game overlay completely 
+	fill the screen and be partially hidden behind the bar.
 
-OverlayBarsSmall 		White bar along the bottom and left side of the screen, standard logo in the bottom left corner,
-						designed to have game overlay fit to the space while not being hidden by the bar
+OverlayBarsSmall
+	White bar along the bottom and left side 
+	of the screen, standard logo in the bottom 
+	left corner, designed to have game overlay 
+	fit to the space while not being hidden by the bar.
 
-OverlayBarsLarge		White bars along the bottom and left of the screen, Larger logo on the left side
-						above the title.  The white bars take up (approximately) 20% of the space, allowing
-						user to add text and webcam to the area without overlaying above game overlay space
+OverlayBarsLarge
+	White bars along the bottom and left of 
+	the screen, Larger logo on the left side
+	above the title.  The white bars take up 
+	(approximately) 20% of the space, allowing
+	user to add text and webcam to the area 
+	without overlaying above game overlay space.
 
-SplitSetup				Specially Designed space designed for split camera or non-game focused uses, i.e. IRL 
-						space with Twitch Chat, or two camera space.  Semi-transparent logo in bottom right corner
-						recommended.
+SplitSetup
+	Specially Designed space designed for split 
+	camera or non-game focused uses, i.e. IRL 
+	space with Twitch Chat, or two camera space.  
+	Semi-transparent logo in bottom right corner
+	recommended.
 ```
-
 A fifth minimal layout can be used by simply using no bars, and adding the semi-transparent logo to a corner of the screen.
 
 ## Other File Includes
@@ -32,6 +44,12 @@ An offline logo png and a stream standby loop video are included in the content,
 
 ## Theme Requirements
 The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  Those are not on the github, but can be found in the google drive folder [HERE](https://drive.google.com/open?id=1B0INRjwXxINnHouKJN6Rb7-1bQnwF5-p).  Make sure you get both the standard logo and the Transparent one if you need them.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
+
+## A note on the logo
+After speaking to someone who does this for a living, it has been recommended that we follow these rules in relation to the logo:
+- There should always be a padding of at least 1/16th of the size of the logo on each side of the logo from any edge, any other specific piece of art, or the edge of any intentionally created container
+- Only put it in areas that are not \'busy\', that is, visually noisy.  if you have a colorful background behind it, or it will significantly overlay on the game background, use the transparent logo.
+- Though the logo can crop over other items on the display, per the rules above, the logo itself should never be cropped.
 
 ## TODO List
 - The overlay file currently only includes the visual elements and doesnt include widget selection, layouts, or themes.
