@@ -7,6 +7,13 @@ Grab [the main overlay file](FragforceOverlay.overlay) from here, and import it 
 ## About this github
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
 
+## Color Palette
+* #4E738B
+* #7A9DB6
+* #30292F
+* #223843
+* #3F4045
+
 ## Content Summary
 There are four complete gaming layout pages:
 ```
