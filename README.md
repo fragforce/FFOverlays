@@ -52,6 +52,14 @@ An offline logo png and a stream standby loop video are included in the content,
 ## Theme Requirements
 The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  These files are now small enough to be stored in the repository, and you will find them in the Overlays folder.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
 
+## Color Palette
+Fragforce has a general color palette, based on the logo and some shuffling.  The colors we have used in this layout are:
+- #4e738b
+- #7a9db6
+- #30292f
+- #223843
+- #3f4045
+
 ## A note on the logo
 After speaking to someone who does this for a living, it has been recommended that we follow these rules in relation to the logo:
 - There should always be a padding of at least 1/16th of the size of the logo on each side of the logo from any edge, any other specific piece of art, or the edge of any intentionally created container
@@ -59,6 +67,6 @@ After speaking to someone who does this for a living, it has been recommended th
 - Though the logo can crop over other items on the display, per the rules above, the logo itself should never be cropped.
 
 ## TODO List
-[ ] Add themed widgets
-[ ] Rework split screen layout (maybe darken or change colors)
+- [ ] Add themed widgets
+- [x] Rework split screen layout (maybe darken or change colors)
 
