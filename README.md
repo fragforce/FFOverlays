@@ -1,7 +1,12 @@
 # FFOverlays
 Graphics, Videos, and OBS configurations for Fragforce's Streams
 
-## TL;DR
+## TL;DR - OBS Studio - Windows
+* Download [the zip](https://github.com/fragforce/FFOverlays/archive/master.zip)
+* Extract the overlays folder to C:\Stream on Windows
+* Import the OBS_Overlay.json file into OBS (Scene Collection -> Import)
+
+## TL;DR - StreamLabs OBS
 Grab [the main overlay file](FragforceOverlay.overlay) from here, and import it using your OBS to get all the associated overlays!
 
 ## About this github
