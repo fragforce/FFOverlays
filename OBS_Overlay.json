@@ -540,7 +540,7 @@
             "push-to-talk-delay": 0,
             "settings": {
                 "close_when_inactive": true,
-                "local_file": "C:/stream/overlays/LogoOnly.avi",
+                "local_file": "C:/stream/overlays/LogoOnly.webm",
                 "looping": true,
                 "restart_on_activate": false
             },
@@ -592,7 +592,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "local_file": "C:/stream/overlays/LogoOnly-Transparent.avi",
+                "local_file": "C:/stream/overlays/LogoOnly-Transparent.webm",
                 "looping": true,
                 "restart_on_activate": false
             },
