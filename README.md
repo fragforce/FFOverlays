@@ -2,12 +2,15 @@
 Graphics, Videos, and OBS configurations for Fragforce's Streams
 
 ## TL;DR - OBS Studio - Windows
-* Download [the zip](https://github.com/fragforce/FFOverlays/archive/master.zip)
+* Download [the full repo zip](https://github.com/fragforce/FFOverlays/archive/master.zip)
 * Extract the overlays folder to C:\Stream on Windows
+* Copy any EL/CMN videos you want to use for commercials in the C:\Stream\overlays\Commercials folder
 * Import the OBS_Overlay.json file into OBS (Scene Collection -> Import)
 
 ## TL;DR - StreamLabs OBS
-Grab [the main overlay file](FragforceOverlay.overlay) from here, and import it using your OBS to get all the associated overlays!
+* Grab [the main overlay file](FragforceOverlay.overlay) from here
+* Import it using OBS by going to options and then Scene Collections
+* Go to the Commercials scene and edit the playlist in the 'Commercial Player' Source to point to the folder where your EL/CMN videos are.
 
 ## About this github
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
@@ -20,7 +23,7 @@ This is where you can find all the basic images Fragforce participants can use i
 * #3F4045
 
 ## Content Summary
-There are four complete gaming layout pages:
+There are five complete gaming layout pages:
 ```
 OverlayBarBottomOnly 	
 	White bar along the bottom of the screen, 
@@ -48,11 +51,48 @@ SplitSetup
 	space with Twitch Chat, or two camera space.  
 	Semi-transparent logo in bottom right corner
 	recommended.
-```
-A fifth minimal layout can be used by simply using no bars, and adding the semi-transparent logo to a corner of the screen.
 
-## Other File Includes
-An offline logo png and a stream standby loop video are included in the content, which can each be used on their own as a offline image and as a standby animation.  You will also find a simple rectangle overlay in this repository, this can be used as a border around any widescreen item, including webcams or widgets, to give a neater feel to any inserted pieces.
+CamAndLogo
+	No bars are used -- only the webcam box and
+	a semi-transparent logo are overlaid.
+```
+
+There are also two non-gaming scenes included:
+```
+SpinningLogo
+	Simply the Fragforce animated spinning logo in a video file,
+	best used as a quick intersitial
+
+Commercial
+	Layout with a VLC source player, designed to
+	be used as a 'commercial break' where you can
+	play videos from your charity while preparing
+	more events/games and such, or while taking a
+	break.
+```
+
+And finally, three other scenes are included:
+```
+Alerts/Overlays
+	This scene is the overlay that should go over all
+	scenes.  It includes Fragbot integrations and should
+	be at the very top of all other used scenes.  The
+	layout defaults at 1080p and should stretch over
+	the entire screen to work properly.
+
+Offline
+	Simply the offline image.  Don't have this on
+	for more than a few moments, as that just looks
+	bad for everyone XD
+
+Framed Webcam
+	This is the scene that has the default webcam
+	you are using for facecam, and a border.  If you
+	need to change the webcam source, or replace it
+	with something like facerig, change that here
+	and it will be replaced on all other scenes.
+
+```
 
 ## Theme Requirements
 The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  These files are now small enough to be stored in the repository, and you will find them in the Overlays folder.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
@@ -73,5 +113,4 @@ After speaking to someone who does this for a living, it has been recommended th
 
 ## TODO List
 - [ ] Add themed widgets
-- [x] Rework split screen layout (maybe darken or change colors)
-
+- [ ] Change Individual Charity Logos to maybe animated rotating single logo?
