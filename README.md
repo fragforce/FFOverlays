@@ -2,12 +2,14 @@
 Graphics, Videos, and OBS configurations for Fragforce's Streams
 
 ## TL;DR - OBS Studio - Windows
+* Install the 64 bit version of VLC from [HERE](https://www.videolan.org/vlc/download-windows.html) if you don't have it. 
 * Download [the full repo zip](https://github.com/fragforce/FFOverlays/archive/master.zip)
 * Extract the overlays folder to C:\Stream on Windows
 * Copy any EL/CMN videos you want to use for commercials in the C:\Stream\overlays\Commercials folder
 * Import the OBS_Overlay.json file into OBS (Scene Collection -> Import)
 
 ## TL;DR - StreamLabs OBS
+* Install the 64 bit version of VLC from [HERE](https://www.videolan.org/vlc/download-windows.html) if you don't have it. 
 * Grab [the main overlay file](FragforceOverlay.overlay) from here
 * Import it using OBS by going to options and then Scene Collections
 * Go to the Commercials scene and edit the playlist in the 'Commercial Player' Source to point to the folder where your EL/CMN videos are.
