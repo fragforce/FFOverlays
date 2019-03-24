@@ -14,6 +14,9 @@ Graphics, Videos, and OBS configurations for Fragforce's Streams
 * Import it using OBS by going to options and then Scene Collections
 * Go to the Commercials scene and edit the playlist in the 'Commercial Player' Source to point to the folder where your EL/CMN videos are.
 
+## TL;DR - OBS Linux
+* What are you even doing reading this?  If you know Linux, you dont need my help, go do your thing!
+
 ## About this github
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
 
@@ -73,7 +76,7 @@ Commercial
 	break.
 ```
 
-And finally, three other scenes are included:
+And finally, three other support scenes are included:
 ```
 Alerts/Overlays
 	This scene is the overlay that should go over all
@@ -97,10 +100,10 @@ Framed Webcam
 ```
 
 ## Theme Requirements
-The transparent animated logos used in the layouts must be uncompressed AVI files (as they use png transparency) and as such are larger files.  These files are now small enough to be stored in the repository, and you will find them in the Overlays folder.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
+Transparent animataed logos are being used in all scenes, and are encoded using VP8.  Issues can be most often resolved by updating your version of VLC, though please file an issue or reach out to us on our [Discord Server](http://discord.fragforce.org) if you have any problems.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
 
 ## Color Palette
-Fragforce has a general color palette, based on the logo and some shuffling.  The colors we have used in this layout are:
+Fragforce now has a general color palette, based on the logo and some shuffling.  The colors we have used in this layout are:
 - #4e738b
 - #7a9db6
 - #30292f
