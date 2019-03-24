@@ -21,6 +21,7 @@ Graphics, Videos, and OBS configurations for Fragforce's Streams
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
 
 ## Color Palette
+Fragforce now has a general color palette, based on the logo and some shuffling.  The colors we have used in this layout are:
 * #4E738B
 * #7A9DB6
 * #30292F
@@ -100,17 +101,9 @@ Framed Webcam
 ```
 
 ## Theme Requirements
-Transparent animataed logos are being used in all scenes, and are encoded using VP8.  Issues can be most often resolved by updating your version of VLC, though please file an issue or reach out to us on our [Discord Server](http://discord.fragforce.org) if you have any problems.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
+Transparent animated logos are being used in all scenes, and are encoded using VP8.  Issues can be most often resolved by updating your version of VLC, though please file an issue or reach out to us on our [Discord Server](http://discord.fragforce.org) if you have any problems.  Alternatively, you can use the static png logo included in this repository to reduce processing overhead and size.
 
-## Color Palette
-Fragforce now has a general color palette, based on the logo and some shuffling.  The colors we have used in this layout are:
-- #4e738b
-- #7a9db6
-- #30292f
-- #223843
-- #3f4045
-
-## A note on the logo
+## A design note on the logo
 After speaking to someone who does this for a living, it has been recommended that we follow these rules in relation to the logo:
 - There should always be a padding of at least 1/16th of the size of the logo on each side of the logo from any edge, any other specific piece of art, or the edge of any intentionally created container
 - Only put it in areas that are not \'busy\', that is, visually noisy.  if you have a colorful background behind it, or it will significantly overlay on the game background, use the transparent logo.
