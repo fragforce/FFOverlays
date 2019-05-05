@@ -15,7 +15,12 @@ Graphics, Videos, and OBS configurations for Fragforce's Streams
 * Go to the Commercials scene and edit the playlist in the 'Commercial Player' Source to point to the folder where your EL/CMN videos are.
 
 ## TL;DR - OBS Linux
-* What are you even doing reading this?  If you know Linux, you dont need my help, go do your thing!
+* To make it easier for linux users we have added a linux specific overlay file.
+* Install your linux flavor of VLC
+* The linux overlay requires that you install [obs-linuxbrowser](https://github.com/bazukas/obs-linuxbrowser/) plugin. It's super easy to do.
+    * The audio will play over your default desktop audio device due to the way chromium works on linux.
+* Download the repo zip and unpack, or `git clone` it, to `/stream/`
+* Import the `OBS_Overlay-linux.json` into OBS under the `Scene Collection` menu item.
 
 ## About this github
 This is where you can find all the basic images Fragforce participants can use in their OBS stream layout to help standarize stream branding.
