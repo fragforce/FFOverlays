@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Retro_Game_Layout",
-    "current_scene": "Retro_Game_Layout",
+    "current_program_scene": "About_To_Go_Live",
+    "current_scene": "About_To_Go_Live",
     "current_transition": "Fade",
     "groups": [
         {
@@ -870,7 +870,7 @@
                             "y": 567.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -1442,8 +1442,8 @@
                         "locked": false,
                         "name": "Import_Latest_Donation",
                         "pos": {
-                            "x": -270.0,
-                            "y": -85.0
+                            "x": 472.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1471,8 +1471,8 @@
                         "locked": false,
                         "name": "Import_Top_Donation",
                         "pos": {
-                            "x": 166.0,
-                            "y": -85.0
+                            "x": 908.0,
+                            "y": 7.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1500,8 +1500,8 @@
                         "locked": false,
                         "name": "FF_Spinny_Logo",
                         "pos": {
-                            "x": 134.0,
-                            "y": -92.0
+                            "x": 876.0,
+                            "y": 0.0
                         },
                         "private_settings": {},
                         "rot": 0.0,
@@ -1529,8 +1529,8 @@
                         "locked": false,
                         "name": "Info_Bar",
                         "pos": {
-                            "x": -270.0,
-                            "y": -92.0
+                            "x": 472.0,
+                            "y": 0.0
                         },
                         "private_settings": {
                             "collapsed": true
@@ -2396,7 +2396,7 @@
                             "y": 85.0
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -2485,7 +2485,7 @@
                             "y": 257.38095092773438
                         },
                         "private_settings": {
-                            "collapsed": false
+                            "collapsed": true
                         },
                         "rot": 0.0,
                         "scale": {
@@ -3795,6 +3795,35 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
+                        "group_item_backup": false,
+                        "id": 3,
+                        "locked": false,
+                        "name": "Text_BRB",
+                        "pos": {
+                            "x": 529.0,
+                            "y": 864.0
+                        },
+                        "private_settings": {},
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
                         "group_item_backup": true,
                         "id": 2,
                         "locked": true,
@@ -3835,35 +3864,6 @@
                         "private_settings": {
                             "collapsed": true
                         },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "group_item_backup": false,
-                        "id": 3,
-                        "locked": false,
-                        "name": "Text_BRB",
-                        "pos": {
-                            "x": 529.0,
-                            "y": 864.0
-                        },
-                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
