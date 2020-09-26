@@ -7,7 +7,7 @@ Graphics, Videos, and OBS configurations for Fragforce's Streams
 * Extract the overlays folder to C:\Stream on Windows
 * Install the fonts from the Fonts Folder onto your system
 * Copy any EL/CMN videos you want to use for commercials in the C:\Stream\overlays\Commercials folder
-* Import the OBS_Overlay.json file into OBS (Scene Collection -> Import)
+* Import the Fragforce2020.json file into OBS (Scene Collection -> Import)
 * Go change the specifics on in your configuration to point to your specific Extra Life account (see Configurable Content below)
 
 ## TL;DR - StreamLabs OBS - Temporarily deprecated, please use OBS official
