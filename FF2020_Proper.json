@@ -2,6 +2,7 @@
     "current_program_scene": "About_To_Go_Live",
     "current_scene": "About_To_Go_Live",
     "current_transition": "Fade",
+    "current_transition": "Fragforce Stinger 1",
     "groups": [
         {
             "balance": 0.5,
@@ -411,21 +412,28 @@
             "fade_to_black": false,
             "hotkeys": [],
             "id": 8,
-            "name": "Cut"
+            "name": "Fragforce Stinger 1"
         },
         {
             "duration": 300,
             "fade_to_black": false,
             "hotkeys": [],
             "id": 9,
-            "name": "Fade"
+            "name": "Fragforce Stinger 2"
         },
         {
             "duration": 300,
             "fade_to_black": true,
             "hotkeys": [],
             "id": 10,
-            "name": "Fade"
+            "name": "Fragforce Stinger 3"
+        },
+        {
+            "duration": 300,
+            "fade_to_black": false,
+            "hotkeys": [],
+            "id": 11,
+            "name": "Cut"
         }
     ],
     "saved_projectors": [],
@@ -3906,5 +3914,33 @@
         }
     ],
     "transition_duration": 300,
-    "transitions": []
+    "transitions": [
+        {
+            "id": "obs_stinger_transition",
+            "name": "Fragforce Stinger 1",
+            "settings": {
+                "path": "C:/stream/video/stingers/FF_Transition_1(Frame_17).webm",
+                "tp_type": 1,
+                "transition_point": 17
+            }
+        },
+        {
+            "id": "obs_stinger_transition",
+            "name": "Fragforce Stinger 2",
+            "settings": {
+                "path": "C:/stream/video/stingers/FF_Transition_2(Frame_20).webm",
+                "tp_type": 1,
+                "transition_point": 20
+            }
+        },
+        {
+            "id": "obs_stinger_transition",
+            "name": "Fragforce Stinger 3",
+            "settings": {
+                "path": "C:/stream/video/stingers/FFLogoThwompStinger.webm",
+                "tp_type": 1,
+                "transition_point": 15
+            }
+        }
+    ]
 }
