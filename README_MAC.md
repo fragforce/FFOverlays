@@ -1,7 +1,7 @@
 # FFOverlays
 Graphics, Videos, and OBS configurations for Fragforce's Streams
 
-## TL;DR - OBS Studio - Linux
+## TL;DR - OBS Studio - Mac
 * Install the mac version of VLC from [HERE](https://www.videolan.org/vlc/) if you don't have it. 
 * Download [the full repo zip](https://github.com/fragforce/FFOverlays/archive/master.zip)
 * Extract the overlays folder to `stream` in you home folder.
